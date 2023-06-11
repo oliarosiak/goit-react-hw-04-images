@@ -28,7 +28,7 @@ const Modal = ({onCloseModal, imageData}) => {
     return createPortal(
         <div onClick={overlayClickHandler} className={css.Overlay} >
             <div className={css.Modal} >
-                <img src={imageData.src} alt={imageData.alt} />
+                <img src={imageData.src} alt={imageData.alt} className={css.ModalImage} />
             </div>
         </div>, modalRoot,
     );

@@ -1,4 +1,9 @@
 @import-normalize; /* bring in normalize.css styles */
+:root{  
+  --bcg-color: #6f6a84;
+  --bcg-color-hover: #555168;
+  --accent-color: #2c0225;
+}
 
 body {
   margin: 0;
@@ -7,7 +12,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: linear-gradient(to right, #e0eafc, #cfdef3);
+  /* background: linear-gradient(to right, #e0eafc, #cfdef3); */
+  background: linear-gradient(to right, #200122, #6f0000);
 }
 
 code {

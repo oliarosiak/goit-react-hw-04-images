@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { toast } from 'react-toastify';
-import { BsSearchHeartFill } from 'react-icons/bs';
+import { BsSearch } from 'react-icons/bs';
 import PropTypes from 'prop-types';
 import css from './Searchbar.module.css';
 
@@ -22,7 +22,7 @@ const Searchbar = ({onSubmit}) => {
         <header className={css.Searchbar}>
             <form onSubmit={submitHeandler} className={css.SearchForm}>
                 <button type="submit" className={css.SearchFormButton}>
-                    <BsSearchHeartFill className={css.SearchFormButtonLabel} />
+                    <BsSearch fill="#fff" className={css.SearchFormButtonLabel} />
                 </button>
 
                 <input
